@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "281196487819",
+    "firebase_url": "https://blueline-a93f8.firebaseio.com",
+    "project_id": "blueline-a93f8",
+    "storage_bucket": "blueline-a93f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281196487819:android:9efaa557fceb4c3a",
+        "android_client_info": {
+          "package_name": "com.blueline.harvbest.blueline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281196487819-clrn8t0e2hsu6ivq410rfibdqpgcmnmn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blueline.harvbest.blueline",
+            "certificate_hash": "c51017c00ab9f68fc1735fb45d62dbf7d004a934"
+          }
+        },
+        {
+          "client_id": "281196487819-d60lobdunan48m828s25vmea0dg1e9n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqNDqTQdr3PUrF6YIPb_t8pvXaCzvV4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281196487819-d60lobdunan48m828s25vmea0dg1e9n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

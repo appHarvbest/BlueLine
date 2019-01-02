@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blueline.harvbest.blueline">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login.Login_Blue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Colecciones.Col1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Colecciones.Col2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Colecciones.Col3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Colecciones.Col4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Colecciones.Col5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Colecciones.Col6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Colecciones.Col7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Colecciones.Col8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Categorias.Cat6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Categorias.Cat5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Categorias.Cat4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Categorias.Cat3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Categorias.Cat2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Categorias.Cat1"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Productos" />
+        <activity android:name=".Productos_cat" />
+
+        <service android:name=".Notificaciones.FirebaseService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Notificaciones.ServicioMensaje">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Detalle_pro"></activity>
+    </application>
+
+</manifest>
