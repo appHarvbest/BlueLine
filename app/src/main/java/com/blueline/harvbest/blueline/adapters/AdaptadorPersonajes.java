@@ -31,7 +31,7 @@ public AdaptadorPersonajes(ArrayList<PersonajeVO>listaPersonajes){
     @Override
     public void onBindViewHolder( ViewHolderPersonajes viewHolderPersonajes, int i) {
 
-    viewHolderPersonajes.EtiNombre.setText(listaPersonajes.get(i).getNombre());
+    viewHolderPersonajes.EtiNombree.setText(listaPersonajes.get(i).getNombre());
     viewHolderPersonajes.etInfo.setText(listaPersonajes.get(i).getInfo());
     viewHolderPersonajes.foto.setImageResource(listaPersonajes.get(i).getFoto());
 
@@ -56,13 +56,13 @@ if(listener!=null){
 
     public class ViewHolderPersonajes extends RecyclerView.ViewHolder {
 
-    TextView EtiNombre, etInfo;
+    TextView EtiNombree, etInfo;
     ImageView foto;
 
         public ViewHolderPersonajes(View itemView) {
             super(itemView);
 
-            EtiNombre = (TextView) itemView.findViewById(R.id.idNombre);
+            EtiNombree = (TextView) itemView.findViewById(R.id.idNombre);
             etInfo = (TextView) itemView.findViewById(R.id.idDescr);
             foto = (ImageView) itemView.findViewById(R.id.idImagen);
         }
